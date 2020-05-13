@@ -1,9 +1,6 @@
 /* eslint-disable */
 import React, { useState, useEffect } from "react";
 import { makeStyles } from '@material-ui/core/styles';
-
-import { Row, Col, Clearfix, Collapse, Button, Table } from 'react-bootstrap';
-import { Accordion, AccordionItem } from 'react-light-accordion';
 import { Grid } from '@material-ui/core';
 import theme from "../../theme";
 import * as Actions from '../../actions/twitterAction';
@@ -12,9 +9,9 @@ import { connect } from 'react-redux';
 import _ from 'lodash';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlus, faMinus, faSpinner, faCaretRight, faCaretDown } from '@fortawesome/free-solid-svg-icons';
+import { faCaretRight, faCaretDown } from '@fortawesome/free-solid-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
-library.add(faPlus, faMinus, faSpinner, faCaretRight, faCaretDown);
+library.add(faCaretRight, faCaretDown);
 
 const useStyles = makeStyles(theme => ({
     section: {
@@ -37,7 +34,6 @@ const useStyles = makeStyles(theme => ({
 
 export const TwitterDashboard = (props) => {
     const [ShowQuote, setShowQuote] = useState(false);
-    const [twitterList, setTwitterList] = useState(null);
     const classes = useStyles();
 
     useEffect(() => {
@@ -84,7 +80,9 @@ export const TwitterDashboard = (props) => {
                                 fetchTweetsByTagSearch(list.value);
                             }} className={classes.sectionHeader}>{list.value}
                                 <btn >
-                                    <FontAwesomeIcon icon={!ShowQuote ? 'caret-right' : 'caret-down'} className={classes.imageStyle} />
+                                    <FontAwesomeIcon icon={!ShowQuote ? 'caret-right' :
+                                        props.twitter.twitResponse[0].tag === list.value ? 'caret-down' : 'caret-right'}
+                                        className={classes.imageStyle} />
                                 </btn>
                             </div>
 

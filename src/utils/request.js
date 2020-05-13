@@ -12,35 +12,11 @@ import { encrypt, decrypt } from './encrypt';
  * @return {object} The parsed JSON from a request
  */
 function parseJSON(response) {
-  if (response.status === 204 || response.status === 205) {
-    return null;
-  }
-  if (response.config.url.indexOf('/proxy/Prescription/DownloadPrescription') > -1) {
-    return response.data;
-  }
-  if (response.config.url.indexOf('/proxy/Invoice/DownloadInvoice') > -1) {
-    return response.data;
-  }
-  if (response.config.url.includes('maps.googleapis.com')) {
-    return response.data;
-  }
-
-  if (response.config.url.includes('/Proxy/Document/DownloadAttachement')) {
-    return response.data;
-  }
-
   if (response.config.url.includes('https://www.tronalddump.io')) {
     return response.data;
   }
 
-  if (response.config.url.includes('/Proxy/Document/DownloadAttachement')) {
-    return response.data;
-  }
-
   // some responses would not need parsing. return them as is.
-  if ((response.config.url.indexOf('?id=TNC') > -1) || (response.config.url.indexOf('Document/Upload') > -1) || (response.config.url.indexOf('blogs.vivant.me') > -1) || (response.config.url.indexOf('Document/UploadPatientAttachments') > -1)) {
-    return response.data;
-  }
 
   if (typeof response === 'object') {
     let data = response.data;
@@ -115,18 +91,6 @@ export function getRandomIntFromInterval(min, max) {
   * Axios request interceptor
 */
 axios.interceptors.request.use((requestConfig) => {
-  if (requestConfig.url.includes('maps.googleapis.com')) {
-    return requestConfig;
-  }
-  if (requestConfig.url.indexOf('/proxy/Prescription/DownloadPrescription') > -1) {
-    return requestConfig;
-  }
-  if (requestConfig.url.indexOf('/proxy/Invoice/DownloadInvoice') > -1) {
-    return requestConfig;
-  }
-  if (requestConfig.url.indexOf('/Proxy/Document/DownloadAttachement') > -1) {
-    return requestConfig;
-  }
   if (requestConfig.url.indexOf('https://www.tronalddump.io') > -1) {
     return requestConfig;
   }
@@ -166,24 +130,6 @@ axios.interceptors.request.use((requestConfig) => {
   * Axios response interceptor
 */
 axios.interceptors.response.use((response) => {
-  if (response.config.url.indexOf('/proxy/Prescription/DownloadPrescription') > -1) {
-    return response;
-  }
-  if (response.config.url.indexOf('/proxy/Invoice/DownloadInvoice') > -1) {
-    return response;
-  }
-  if (response.config.url.includes('https://blogs.vivant.me')) {
-    return response;
-  }
-  if (response.config.url.includes('maps.googleapis.com')) {
-    return response;
-  }
-  if ((response.config.url.indexOf('?id=TNC') > -1) || (response.config.url.indexOf('Document/Upload') > -1) || (response.config.url.indexOf('blogs.vivant.me') > -1) || (response.config.url.indexOf('Document/UploadPatientAttachments') > -1)) {
-    return response;
-  }
-  if (response.config.url.includes('/Proxy/Document/DownloadAttachement')) {
-    return response;
-  }
   if (response.config.url.includes('https://www.tronalddump.io')) {
     return response;
   }
