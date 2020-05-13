@@ -1,0 +1,799 @@
+body,
+div,
+button,
+input,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+textarea,
+table > thead > tr > th,
+table > tbody > tr > td {
+  font-family: Muli !important;
+}
+
+img {
+  cursor: pointer;
+}
+
+input,
+textarea,
+.MuiFormControlLabel-label {
+  font-size: 14px !important;
+  color: "#979797" !important;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+.MuiTypography-caption,
+.MuiFormControlLabel-label,
+.leftNav {
+  font-family: Muli !important;
+}
+
+table > thead > tr > th {
+  font-size: 14px !important;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #242424 !important;
+}
+
+table > tbody > tr > td {
+  font-size: 12px !important;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6d6969;
+}
+
+.MuiButton-label {
+  text-transform: none;
+}
+
+.fontSize22 {
+  font-size: 22px !important;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.fontSize20 {
+  font-size: 20px !important;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.fontSize18 {
+  font-size: 18px !important;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.fontSize16 {
+  font-size: 16px !important;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.fontSize14 {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  font-family: "Muli,";
+}
+
+.fontSize12 {
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.fontSize13 {
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.View-all {
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.normalfontSize12 {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+#listItemText {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#listItemText > span {
+  font-size: 14px !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+  font-family: Muli !important;
+}
+
+.pageTitle {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #242424;
+}
+
+.color_979797 {
+  color: "#979797";
+}
+
+.normalWaight {
+  font-weight: normal !important;
+}
+
+.verticalLine {
+  border-left: 2px solid #a6a9a6;
+  height: 5px;
+  padding: 7px 5px;
+}
+
+.textBold {
+  font-weight: 700;
+}
+
+.blackColor {
+  color: black;
+}
+
+.phentBlackColor {
+  color: #00000087;
+}
+
+.button-transparent {
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  outline: none;
+  cursor: pointer !important;
+  padding: 0;
+}
+
+.MuiDrawer-paperAnchorDockedLeft {
+  border-right: 1px solid #e9eff4 !important;
+}
+
+.MuiFormControl-marginNormal {
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+}
+
+.modalGrid {
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.modalGridMargin {
+  width: 100% !important;
+  margin: -8px !important;
+}
+
+.marginTop10 {
+  margin-top: 10% !important;
+  position: absolute;
+  bottom: 0;
+  left: -33px;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.modalTitle {
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #242424;
+}
+
+.modalSubTitle {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #979797;
+}
+
+.leftNav {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+}
+
+/* All Patient Screen CSS Start */
+
+.gridPadding {
+  padding: 2%;
+  display: flex;
+}
+
+.paddingRight9 {
+  padding-right: 9px;
+}
+
+.displayFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.marginTop3 {
+  margin-top: 3%;
+}
+
+.floatRight {
+  float: right;
+}
+
+/* All Patient Screen CSS End */
+
+/* button style override start */
+.disbled-button-bg {
+  background-color: #a8c3f2 !important;
+  color: #fff !important;
+}
+
+.disbled-button {
+  margin-bottom: 24px !important;
+  font-size: 12 !important;
+  font-weight: bold !important;
+  padding: 12px 32px !important;
+  border: none !important;
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+  min-height: 0px !important;
+}
+.disbled-button:disabled {
+  cursor: not-allowed !important;
+}
+
+.btn-length {
+  width: 90% !important;
+}
+
+.enabled-button-bg {
+  background-color: #2e70e6 !important;
+  color: #fff !important;
+}
+
+.enaled-button {
+  margin-bottom: 24px !important;
+  cursor: pointer !important !important;
+  font-size: 12 !important;
+  font-weight: bold !important;
+  padding: 12px 32px !important;
+  border: none !important;
+  min-height: 0px !important;
+}
+
+/* button style override end */
+/* Header Search Input CSS Start */
+
+.item {
+  padding: 4px 10px;
+  cursor: default;
+  // background-color: white;
+  // border-bottom: 1px solid #00000045;
+  // border-left: 1px solid #00000045;
+  // border-right: 1px solid #00000045;
+  border-radius: 2px;
+  box-shadow: 0 8px 18px -8px rgba(25, 35, 52, 0.33);
+  border: solid 1px #e8ebf6;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.item-highlighted {
+  color: #454545;
+  background-color: #f3f4f7;
+}
+
+.item-header {
+  background-color: #eeeeee;
+  color: #454545;
+  font-weight: bold;
+}
+
+.searchField {
+  border-radius: 2px;
+  outline: none;
+  border-width: 0;
+  width: 325px;
+  padding: 10px 43px;
+  font-size: 13px;
+}
+
+.searchField::placeholder {
+  color: gray;
+}
+
+.searchField > fieldset {
+  border: none;
+}
+
+.headerSearchIcon {
+  position: absolute;
+  top: 12.5px;
+  left: 10px;
+  z-index: 5;
+}
+
+.headerClearIcon {
+  position: absolute;
+  top: 11.5px;
+  z-index: 5;
+  height: 18px;
+  width: 18px;
+  right: 8px;
+}
+
+.searchBar {
+  position: absolute;
+  border-radius: 4px;
+  border: 1px solid #cecece;
+}
+
+/* Header Search Input CSS End */
+
+.rightContainer {
+  padding: 60px !important;
+  padding-bottom: 0px !important;
+  // background-color: theme.colorWhite;
+  min-height: 560px !important;
+}
+
+.textBoxStyle {
+  margin-right: 13px !important;
+}
+
+.drug-searchbar {
+  width: auto;
+}
+
+.drug-search-results {
+  position: absolute;
+  z-index: 2;
+  max-height: 230px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-shadow: 0 8px 18px -8px rgba(25, 35, 52, 0.33);
+}
+
+.drug-search-input {
+  cursor: text;
+  display: inline-flex;
+  position: relative;
+  font-size: 14px;
+  box-sizing: border-box;
+  align-items: center;
+  line-height: 1.1875em;
+  height: 50px;
+  padding: 0px 14px;
+  border-radius: 5px;
+  width: 100%;
+  color: #242424;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  font-weight: 500;
+}
+
+.drug-search-input::placeholder {
+  font-weight: normal;
+}
+
+.patient-search-results {
+  position: absolute;
+  z-index: 2;
+  max-height: 230px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-shadow: 0 8px 18px -8px rgba(25, 35, 52, 0.33);
+  width: 100%;
+}
+
+.onlyIcon {
+  // width: 22% !important;
+}
+
+.onlyIcon > div > fieldset.MuiOutlinedInput-notchedOutline {
+  border-width: 0px !important;
+}
+
+.onlyIcon > div > input {
+  width: 0% !important;
+  padding: 0 !important;
+}
+
+.onlyIcon > div > div > button {
+  padding: 0 !important;
+}
+
+.btn-full-width {
+  width: 100%;
+}
+
+.fixed-height {
+  min-height: 35px !important;
+}
+
+div[role="tooltip"] {
+  z-index: 2;
+}
+
+.MuiSelect-select:focus {
+  background-color: white !important;
+}
+
+.autoSearchInput {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 400px;
+  min-width: 376px;
+}
+
+.overlayScreen {
+  opacity: 0.6;
+  pointer-events: none;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+}
+
+#root div.overlayScreen ~ div ~ main *,
+#root div.overlayScreen ~ div * {
+  pointer-events: none !important;
+}
+
+.MuiFormLabel-root {
+  font-family: Muli !important;
+}
+
+.allPatientActiveFilterBtn {
+  border-radius: 30px !important;
+  background-color: #1976d2 !important;
+  color: white !important;
+  cursor: pointer !important;
+  outline: none;
+  padding: 12px 32px;
+  font-size: 12px;
+  box-shadow: none;
+  font-weight: 500;
+  border-width: 0;
+}
+
+.allPatientNonActiveFilterBtn {
+  border-radius: 30px !important;
+  margin-left: 1% !important;
+  cursor: pointer !important;
+  outline: none;
+  padding: 12px 32px;
+  font-size: 12px;
+  box-shadow: none;
+  font-weight: 500;
+  border-width: 0;
+  background-color: white;
+  border: 1px solid #1976d2;
+  color: #1976d2;
+}
+
+.MuiIconButton-colorPrimary:hover,
+.MuiIconButton-root:hover {
+  background-color: transparent !important;
+}
+
+.MuiListItem-root {
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+}
+
+.sweet-loading > div {
+  z-index: 99999;
+}
+
+.activeHighlightedDiv {
+  margin-top: 6px;
+  height: 30px;
+  width: 2px;
+  background-color: white;
+  border-left: 3px solid #fff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.activeTab > .activeHighlightedDiv {
+  border-left: 1px solid white;
+  border-left-width: 3px;
+  height: 30px;
+  margin-top: 6px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.activeTab > div > div > span > span {
+  font-weight: bold;
+  color: white;
+}
+
+.MuiList-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.vertical-timeline {
+  width: 95%;
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 0;
+}
+
+.vertical-timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 20px;
+  height: 100%;
+  width: 1px;
+  background: #2e70e6;
+}
+
+.vertical-timeline-element-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 0 1px #2e70e6, inset 0 0px 0 white, 0 0px 0 0px white;
+}
+
+#states-autocomplete {
+  border-radius: 2px;
+}
+
+.dzu-dropzone {
+  overflow: auto;
+  // border: 1px solid #c1c7c7;
+  border-radius: 0px;
+  border-style: dashed;
+}
+
+.dzu-inputLabel {
+  font-family: Muli;
+  font-size: 16px;
+  color: #979797;
+}
+
+.dzu-inputLabelWithFiles {
+  font-family: Muli;
+  background-color: transparent;
+}
+
+.fixedTabs > div.MuiTabs-fixed {
+  overflow: hidden;
+  position: fixed;
+  z-index: 99999;
+  background-color: #fafafa;
+}
+
+// input[type=number]::-webkit-inner-spin-button,
+// input[type=number]::-webkit-outer-spin-button {
+//   -webkit-appearance: none;
+//   -moz-appearance: none;
+//   appearance: none;
+//   margin: 0;
+// }
+
+.minifiedDatepicker {
+  width: 10% !important;
+}
+
+.minifiedDatepicker > div {
+  padding-left: 0;
+}
+
+.appointmenCategoryButton {
+  border-radius: 2px !important;
+  border: solid 1px #2e70e6 !important;
+  background-color: #fff !important;
+  color: #2e70e6 !important;
+  font-size: 12px !important;
+  margin-right: 10px !important;
+}
+
+.appointmenCategoryButton.selected {
+  background-color: #2e70e6 !important;
+  color: #fff !important;
+}
+.inputAdornmentIcon > p {
+  color: #242424;
+}
+
+.arrow_box {
+  position: relative;
+  background: #000;
+  color: #fff;
+  // border: 2px solid #000000;
+}
+.arrow_box:after,
+.arrow_box:before {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.arrow_box:after {
+  border-color: rgba(85, 85, 85, 0);
+  border-right-color: #000;
+  border-width: 7px;
+  margin-top: -9px;
+}
+.arrow_box:before {
+  border-color: rgba(0, 0, 0, 0);
+  border-right-color: #000000;
+  border-width: 8px;
+  margin-top: -10px;
+}
+
+#chart .apexcharts-tooltip {
+  color: #000;
+  transform: translateX(10px) translateY(10px);
+  overflow: visible !important;
+  white-space: normal !important;
+}
+
+#chart .apexcharts-tooltip span {
+  padding: 5px 5px;
+  display: inline-block;
+}
+
+.graphLegendOval-One {
+  width: 10px;
+  height: 10px;
+  background-color: #10c4e2;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.graphLegendOval-Two {
+  width: 10px;
+  height: 10px;
+  background-color: #06b8ff;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.graphLegendOval-Three {
+  width: 10px;
+  height: 10px;
+  background-color: #273eb0;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.active-scroll-tab {
+  background-color: #fff;
+}
+.box-last {
+  left: 620px or 70%;
+}
+
+.procedure-price-input > div > input {
+  padding: 16px 16px 16px 0px !important;
+}
+
+.autoComplete-highlight-text {
+  font-size: 14;
+  font-family: Muli;
+  font-weight: 300;
+  color: #a09696;
+}
+
+.autoComplete-not-highlight-text {
+  font-size: 14;
+  font-family: Muli;
+  font-weight: 600;
+  color: #000;
+}
+
+.add-new-medication-enable-button {
+  cursor: pointer;
+  pointer-events: all;
+  width: 72px;
+  height: 40px;
+  border-radius: 4px;
+  padding: 0px;
+  margin-top: 6px;
+  background-color: #2e70e6;
+  border: solid 1px #2e70e6;
+  color: white;
+}
+
+.add-new-medication-disable-button {
+  cursor: not-allowed;
+  pointer-events: none;
+  width: 72px;
+  height: 40px;
+  border-radius: 4px;
+  padding: 0px;
+  margin-top: 6px;
+  background-color: #dde1e8;
+  border: solid 1px #dde1e8;
+  color: #1b1818;
+}
+
+.MuiTypography-body1 {
+  font-family: "Muli" !important;
+}

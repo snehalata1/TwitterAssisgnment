@@ -1,0 +1,80 @@
+@import '~@fullcalendar/core/main.css';
+@import '~@fullcalendar/daygrid/main.css';
+@import '~@fullcalendar/timegrid/main.css';
+// @import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap');
+
+// @font-face {
+//   font-family: 'SegoeUI';
+//   src: url(./fonts/segoeuisl.ttf) format('truetype');
+//   font-weight: 400;
+// }
+
+// @font-face {
+//   font-family: 'SegoeUI';
+//   src: url(./fonts/segoeuil.ttf) format('truetype');
+//   font-weight: 300;
+// }
+
+// @font-face {
+//   font-family: 'SegoeUI';
+//   src: url(./fonts/seguisb.ttf) format('truetype');
+//   font-weight: 500;
+// }
+
+// @font-face {
+//   font-family: 'SegoeUI';
+//   src: url(./fonts/segoeuib.ttf) format('truetype');
+//   font-weight: 500;
+// }
+
+
+@font-face {
+  font-family: 'SegoeUI';
+  font-weight: 400;
+  src: url('./fonts/Segoe-UI.ttf') format('ttf'), url('./fonts/Segoe-UI.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SegoeUI';
+  font-weight: normal;
+  src: url('./fonts/Segoe-UI.ttf') format('ttf'), url('./fonts/Segoe-UI.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SegoeUI';
+  font-weight: 500;
+  src: url('./fonts/Segoe-Bold.ttf') format('ttf'), url('./fonts/Segoe-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SegoeUI';
+  font-weight: 500;
+  src: url('./fonts/Segoe-Semibold.ttf') format('ttf'), url('./fonts/Segoe-Semibold.ttf') format('truetype');
+}
+
+// @font-face {
+//   font-family: 'SegoeUI';
+//   font-weight: 500;
+//   src: url('./fonts/Segoe-Bold-Italic.ttf') format('ttf'), url('./fonts/Segoe-Bold-Italic.ttf') format('truetype');
+// }
+
+// @font-face {
+//   font-family: 'SegoeUI';
+//   font-weight: 400;
+//   src: url('./fonts/Segoe-Italic.ttf') format('ttf'), url('./fonts/Segoe-Italic.ttf') format('truetype');
+// }
+
+
+
+
+$primaryColor: #1976D2;
+$bodyBackground: #eef1f4;
+$secondaryText: #979797;
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0; 
+}
